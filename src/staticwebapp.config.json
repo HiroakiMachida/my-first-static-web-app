@@ -7,13 +7,12 @@
   ],
   "auth": {
     "identityProviders": {
-      "azureActiveDirectory": {
+      "github": {
         "registration": {
-          "openIdIssuer": "https://login.microsoftonline.com/61332b8b-8436-4940-8f59-62add68a5c8d/v2.0",
-          "clientIdSettingName": "AZURE_CLIENT_ID",
-          "clientSecretSettingName": "AZURE_CLIENT_SECRET"
+          "clientIdSettingName": "GITHUB_CLIENT_ID",
+          "clientSecretSettingName": "GITHUB_CLIENT_SECRET"
         }
       }
     }
   }
-}
+ }
